@@ -186,7 +186,7 @@ export default function Portfolio() {
               </div>
               <DeveloperAvatar size={300}/>
               <div className="mt-3 rounded-2xl border border-white/10 bg-black/20 p-4 font-mono text-xs leading-6">
-                <div className="text-white/35">// a little about me</div>
+                <div className="text-white/35">{"// a little about me"}</div>
                 <div><span className="text-violet-300">const</span> <span className="text-cyan-200">developer</span> = {"{"}</div>
                 <div className="pl-4"><span className="text-violet-200">focus</span>: <span className="text-emerald-200">&quot;build &amp; learn&quot;</span>,</div>
                 <div className="pl-4"><span className="text-violet-200">mindset</span>: <span className="text-emerald-200">&quot;curious&quot;</span>,</div>
