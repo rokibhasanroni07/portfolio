@@ -98,7 +98,7 @@ export default function Portfolio() {
     const subject = encodeURIComponent(form.subject || `Portfolio contact from ${form.name}`);
     const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`);
     setFormMessage("Your email app should open with the message prepared. Send it there to complete delivery.");
-    window.location.href = `mailto:YOUR_EMAIL@example.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:rokibhasanroni07@gmail.com?subject=${subject}&body=${body}`;
   }
 
   const nav = [
